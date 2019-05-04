@@ -36,6 +36,7 @@
     "express-session": "^1.16.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.5.5",
+    "passport": "^0.4.0",
     "passport-google-oauth": "^2.0.0"
   }
 }
