@@ -1,0 +1,20 @@
+#HeaderBottom {
+  justify-content: space-around;
+  width: 80vw;
+  margin: 0 auto;
+  height: 4em;
+}
+
+.headerText {
+  padding: 0 0.5em;
+  height: 2em;
+}
+
+.headerText > p {
+  font-size: 0.8em;
+  transition: all 2.5s;
+}
+
+.headerText.headerHighlight {
+  color: rgb(63,90,167);
+}
