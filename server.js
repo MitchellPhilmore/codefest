@@ -6,9 +6,8 @@ let PORT = process.env.PORT || 3001;
 let passport = require("passport");
 var LocalStrategy = require("passport-local").Strategy;
 const bcrypt = require("bcrypt");
-const saltRounds = 10;
-const myPlaintextPassword = "s0//P4$$w0rD";
-const someOtherPlaintextPassword = "not_bacon";
+const Schema = mongoose.Schema;
+
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -35,10 +34,11 @@ let User = mongoose.model("User", {
   gender: String,
   bloodType: String,
   allergies: String,
-  userID: String
+  userID: String,
+  visits: Array
 });
 
-let Visit = mongoose.model("Visit", {
+const VisitSchema = new Schema({
   date: String,
   type: String,
   doctor: String,
@@ -48,9 +48,15 @@ let Visit = mongoose.model("Visit", {
   dischargeDate: String,
   location: String,
   symptoms: String,
-  perscription: Array,
-  userID: String
-});
+  perscription: Array
+  
+})
+
+VisitSchema.set('timestamps',true)
+
+const Visit = mongoose.model("Visit",VisitSchema)
+
+
 
 // let newUser = new User({
 //   id: "1232432",
@@ -63,19 +69,7 @@ let Visit = mongoose.model("Visit", {
 //   allergies: ["NA"]
 // });
 
-let newVisit = new Visit({
-  date: "1/3/1998",
-  type: "Routine",
-  doctor: "Dr Smith",
-  physicanNumber: "12238394",
-  mrn: 122334,
-  diagnosis: "Cancer",
-  dischargeDate: "1/5/2009",
-  location: "Chop,Philadelphia,PA",
-  symptoms: "Chest pain",
-  perscription: ["NA"],
-  userID: "1232432"
-});
+
 
 // newUser
 //   .save()
@@ -84,12 +78,7 @@ let newVisit = new Visit({
 //   })
 //   .catch(err => JSON.stringify(err));
 
-newVisit
-  .save()
-  .then(() => {
-    console.log("Saved");
-  })
-  .catch(err => JSON.stringify(err));
+
 
 passport.use(
   new LocalStrategy(
@@ -140,7 +129,8 @@ app.get("/signup", function(req, res) {
     tel: "215-555-5555",
     gender: "M",
     bloodType: "A+",
-    allergies: "NA"
+    allergies: "NA",
+    
   });
 
   bcrypt.genSalt(10, (err, salt) => {
@@ -163,12 +153,57 @@ app.get(
   //   failureRedirect: "/login"
   // }),
   function(req, res) {
-    User.findOne({ userID: req.params.id }, function(err, obj) {
-      res.json(obj);
-    }).catch(err => console.log("can't find this user"));
+    User.findOneAndUpdate({ userID: req.params.id },{$push:{
+      visits: {
+        visits:{
+        date: "1/3/2019",
+        type: "Routine",
+        doctor: "Dr Smith",
+        physicanNumber: "12238394",
+        mrn: 122334,
+        diagnosis: "Cancer",
+        dischargeDate: "1/5/2009",
+        location: "Chop,Philadelphia,PA",
+        symptoms: "Chest pain",
+        perscription: ["NA"],
+       
+  
+      }
+    }
+    
   }
-);
+ 
+}, {new:true})
+.then(user=>{
+  res.json(user) //TODO: return only the last entry in the visits array
+})
+.catch(err=>console.log(JSON.stringify(err)))
+})
 
+
+app.get('/newvisit',(req,res)=>{
+  let newVisit = new Visit({
+    // date: "1/3/1998",
+    // type: "Routine",
+    // doctor: "Dr Smith",
+    // physicanNumber: "12238394",
+    // mrn: 122334,
+    // diagnosis: "Cancer",
+    // dischargeDate: "1/5/2009",
+    // location: "Chop,Philadelphia,PA",
+    // symptoms: "Chest pain",
+    // perscription: ["NA"],
+    // userID: "1232432",
+  
+  });
+
+  newVisit
+  .save()
+  .then(user => res.json(user))
+  .catch(err => console.log(err));
+
+
+})
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
