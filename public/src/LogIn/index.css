@@ -17,11 +17,19 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
   line-height: 2;
-  outline-color: #3EDB74;
+  outline-color: rgb(0, 24, 93);
+  outline-width: 0;
 }
 
 #LogIn input::placeholder {
   color: rgba(255, 255, 255, 0.2);
+}
+
+#LogIn input:focus {
+  font-size: 2.8em;
+  line-height: 1;
+  width: 6em;
+  transition: all 0.4s;
 }
 
 #loginButtons {
@@ -33,9 +41,17 @@
   align-items: flex-end;
 }
 
-#loginButtons > div {
+#loginButtons > .loginButtonHolder.active {
+  background-color: rgb(0, 24, 93);
+}
+
+#loginButtons > .loginButtonHolder {
   height: 94%;
   width: 48%;
   background-color: #fff;
   border-radius: 10%;
+}
+
+.loginButtonHolder i {
+  font-size: 4em;
 }

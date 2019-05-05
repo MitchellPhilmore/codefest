@@ -8,8 +8,12 @@ function LogIn() {
       <input placeholder="DOB" />
     </div>
     <div id="loginButtons" className="flexRow">
-      <div></div>
-      <div></div>
+      <div className="flexRow loginButtonHolder active">
+        <i class="fas fa-fingerprint"></i>
+      </div>
+      <div className="flexRow loginButtonHolder">
+        <i class="fas fa-key"></i>
+      </div>
     </div>
   </>);
 }
