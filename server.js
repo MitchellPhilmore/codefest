@@ -183,10 +183,30 @@ app.get("/login/key/:key/:id", (req, res) => {
 
   if (EMTKEY.includes(req.params.key)) {
     User.find({ userID: req.params.id }).then(user => {
+      console.log(user)
       res.json(user);
     });
   }
 });
+
+
+app.get("/login/user/:id/:ssn/:dob", (req, res) => {
+  const EMTKEY = ["12345678"];
+  const { id, ssn, dob } = req.params;
+
+  User.findOne({
+    userID: id,
+    ssn,
+    dob
+  }).then(user => {
+    if(!user){
+      res.json({user: "none"})
+    }
+    res.json(user)
+  })
+
+});
+
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });

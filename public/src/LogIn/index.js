@@ -9,8 +9,6 @@ function LogIn() {
   const [dob, setDob] = useState("");
   const [key, setKey] = useState("");
 
-  const qrc = 1232432;
-
   const onChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -29,17 +27,29 @@ function LogIn() {
     } else if(active === "key" && button !== "key") {
       setActive("print")
     } else {
-      if((ssn.length === 8) && (dob.length === 10) && (active === "print")){
-        const qrc = localStorage.qrc;
-        axios.get(`/login/usr/${qrc}`)
+      const qrc = localStorage.qrc;
+
+      if((ssn.length === 11) && (dob.length === 10) && (active === "print")){
+        axios.get(`/login/user/${qrc}/${ssn}/${dob}`)
+             .then((user, err) => {
+               if(err || user.data.user && user.data.user === "none"){
+                 return console.log(err || user.data);
+               }
+               const userData = user.data[0];
+               localStorage.setItem("userData", JSON.stringify(userData));
+               window.location.href = "http://localhost:3000/profile"
+             });
+      } else if ((key.length === 8) && (active === "key")) {
+        const key = 12345678;
+        axios.get(`/login/key/${key}/${qrc}`)
              .then((user, err) => {
                if(err){
                  console.log(err)
                }
-               console.log(user)
+               const userData = user.data[0];
+               localStorage.setItem("userData", JSON.stringify(userData));
+               window.location.href = "http://localhost:3000/profile"
              });
-      } else if ((key.length === 8) && (active === "key")) {
-        console.log("submit key")
       }
     }
   }
@@ -58,7 +68,7 @@ function LogIn() {
             onChange={onChange.bind(this)}
             className="zoomOnFocus"
             placeholder="SSN"
-            maxLength="8"/>
+            maxLength="11"/>
           <input
             name="dob"
             value={dob}
