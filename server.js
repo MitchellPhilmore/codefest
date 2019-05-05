@@ -80,17 +80,17 @@ passport.deserializeUser(function(obj, cb) {
   cb(null, obj);
 });
 
-app.get("/signup", async function(req, res) {
-  let personUrl = "https://www.google.com/";
+app.get("/inititalLoad", async function(req, res) {
+  personalData.map(async person => {
+    let personUrl = `https://team-kick-ass.herokuapp.com/usr=${person.userID}`;
 
-  let qr = await QRCode.toString(personUrl, { errorCorrectionLevel: "M" }).then(
-    url => {
+    let qrCode = await QRCode.toString(personUrl, {
+      errorCorrectionLevel: "M"
+    }).then(url => {
       return JSON.stringify(url);
-    }
-  );
+    });
 
-  personalData.map(person => {
-    let newUser = new User(person);
+    let newUser = new User(Object.assign(person, { qrCode }));
     bcrypt.genSalt(10, (err, salt) => {
       bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
         if (err) {
@@ -99,6 +99,46 @@ app.get("/signup", async function(req, res) {
         newUser["ssn"] = hash;
         newUser.save().catch(err => console.log(err));
       });
+    });
+  });
+});
+
+app.get("/signup", async function(req, res) {
+  let userID = require("crypto")
+    .randomBytes(10)
+    .toString("hex");
+
+  let personUrl = `https://team-kick-ass.herokuapp.com/usr=${userID}`;
+
+  let newQRCode = await QRCode.toString(personUrl, {
+    errorCorrectionLevel: "M"
+  }).then(url => {
+    return JSON.stringify(url);
+  });
+
+  let newUser = new User({
+    userID: userID,
+    fullName: req.body.fullName,
+    dob: req.body.dob,
+    ssn: req.body.ssn,
+    tel: req.body.tel,
+    gender: req.body.gender,
+    bloodType: req.body.bloodType,
+    allergies: req.body.allergies,
+    visits: req.body.visits,
+    qrCode: newQRCode
+  });
+
+  bcrypt.genSalt(10, (err, salt) => {
+    bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
+      if (err) {
+        console.log(err);
+      }
+      newUser["ssn"] = hash;
+      newUser
+        .save()
+        .then(res => res.json(newUser))
+        .catch(err => console.log(err));
     });
   });
 });
@@ -138,19 +178,15 @@ app.get(
   }
 );
 
-app.get('/login/key/:key/:id',(req,res)=>{
-  const EMTKEY = ['12345678'];
+app.get("/login/key/:key/:id", (req, res) => {
+  const EMTKEY = ["12345678"];
 
-  if(EMTKEY.includes(req.params.key)){
-    User.find({userID:req.params.id})
-    .then(user=>{
-        res.json(user)
-    })
+  if (EMTKEY.includes(req.params.key)) {
+    User.find({ userID: req.params.id }).then(user => {
+      res.json(user);
+    });
   }
-
-
-
-})
+});
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
