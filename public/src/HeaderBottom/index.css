@@ -1,6 +1,6 @@
 #HeaderBottom {
   justify-content: space-around;
-  width: 80vw;
+  width: 70vw;
   margin: 0 auto;
 }
 
@@ -17,4 +17,9 @@
 
 .headerText.headerHighlight {
   color: rgb(63,90,167);
+}
+
+.boldLetters {
+  color: rgb(63,90,167);
+  font-weight: 800;
 }
