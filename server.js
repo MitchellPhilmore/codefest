@@ -23,9 +23,7 @@ if (process.env.NODE_ENV === "production") {
 // Connect to the Mongo DB
 // mongoose.connect(process.env.MONGODB_URI);
 mongoose
-  .connect(
-    "mongodb://heroku_hvk56k66:rgpk9tlfq5pjg3jailqdrjcsi1@ds135456.mlab.com:35456/heroku_hvk56k66"
-  )
+  .connect("mongodb://admin:codefest2019@ds151486.mlab.com:51486/codefest")
   .then(() => console.log("Connected"))
   .catch(err => console.log(JSON.stringify(err)));
 
