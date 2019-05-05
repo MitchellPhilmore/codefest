@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from "axios";
 import './index.css';
 
 function LogIn() {
@@ -29,7 +30,14 @@ function LogIn() {
       setActive("print")
     } else {
       if((ssn.length === 8) && (dob.length === 10) && (active === "print")){
-        console.log("submit")
+        const qrc = localStorage.qrc;
+        axios.get(`/login/usr/${qrc}`)
+             .then((user, err) => {
+               if(err){
+                 console.log(err)
+               }
+               console.log(user)
+             });
       } else if ((key.length === 8) && (active === "key")) {
         console.log("submit key")
       }
