@@ -35,7 +35,7 @@ function LogIn() {
                if(err || user.data.user && user.data.user === "none"){
                  return console.log(err || user.data);
                }
-               const userData = user.data[0];
+               const userData = user.data;
                localStorage.setItem("userData", JSON.stringify(userData));
                window.location.href = "http://localhost:3000/profile"
              });
