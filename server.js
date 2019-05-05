@@ -24,10 +24,14 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/healthcare");
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/healthcare");
+mongoose.connect("mongodb://admin:codefest2019@ds151486.mlab.com:51486/codefest").then(()=>console.log('Connected')).catch(err=>console.log(JSON.stringify(err)))
+
+
+
 
 let User = mongoose.model("User", {
-  personal: {
+    
     fullName: String,
     dob: String,
     ssn: String,
@@ -35,21 +39,62 @@ let User = mongoose.model("User", {
     gender: String,
     bloodType: String,
     allergies: String
-  },
-  visit: {
+  
+})
+
+let Visit = mongoose.model("Visit",{
     date: String,
-    type: Array,
+    type: String,
     doctor: String,
     physicanNumber: String,
     mrn: Number,
     diagnosis: String,
     dischargeDate: String,
     location: String,
-    symptoms: Array,
+    symptoms: String,
     perscription: Array
-  }
-});
+  
+})
+ 
 
+let newUser = new User({
+    id:'1232432',
+    fullName: 'Mitchell Philmore',
+    dob: '7/22/1987',
+    ssn: '123456789',
+    tel: '215-555-5555',
+    gender: 'M',
+    bloodType: 'A+',
+    allergies: ["NA"]
+  
+
+})
+ 
+let newVisit = new Visit({
+  
+    date: '1/3/1998',
+    type: 'Routine',
+    doctor: 'Dr Smith',
+    physicanNumber: '12238394',
+    mrn: 122334,
+    diagnosis: 'Cancer',
+    dischargeDate: '1/5/2009',
+    location: 'Chop,Philadelphia,PA',
+    symptoms: 'Chest pain',
+    perscription: ['NA']
+  
+})
+
+
+newUser.save().then(()=>{
+  console.log('Saved')
+})
+.catch(err=>JSON.stringify(err))
+
+newVisit.save().then(()=>{
+  console.log('Saved')
+})
+.catch(err=>JSON.stringify(err))
 // Use the GoogleStrategy within Passport.
 //   Strategies in Passport require a `verify` function, which accept
 //   credentials (in this case, an accessToken, refreshToken, and Google
