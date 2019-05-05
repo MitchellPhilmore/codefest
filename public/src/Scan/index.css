@@ -1,0 +1,16 @@
+#Scan {
+  height: 80vh;
+  color: rgb(0, 24, 93);
+}
+
+#scanButton {
+  flex-direction: column;
+}
+
+#scanButton p {
+
+}
+
+#scanButton i {
+  font-size: 12em;
+}
