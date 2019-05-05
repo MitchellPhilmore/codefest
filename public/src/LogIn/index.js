@@ -8,6 +8,8 @@ function LogIn() {
   const [dob, setDob] = useState("");
   const [key, setKey] = useState("");
 
+  const qrc = 1232432;
+
   const onChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
