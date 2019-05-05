@@ -8,7 +8,7 @@ var LocalStrategy = require("passport-local").Strategy;
 let bcrypt = require("bcrypt");
 let Schema = mongoose.Schema;
 let QRCode = require("qrcode");
-let personalData = require("./personalData");
+let personalData = require("./createVisits");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -37,7 +37,8 @@ let User = mongoose.model("User", {
   bloodType: String,
   allergies: String,
   visits: String,
-  qrCode: String
+  qrCode: String,
+  visits: Array
 });
 
 passport.use(
@@ -82,24 +83,9 @@ passport.deserializeUser(function(obj, cb) {
 
 app.get("/initialLoad", async function(req, res) {
   personalData.map(async person => {
-    let personUrl = `https://codefest2019.herokuapp.com//usr=${person.userID}`;
+    let newUser = new User(Object.assign(person));
 
-    let qrCode = await QRCode.toString(personUrl, {
-      errorCorrectionLevel: "M"
-    }).then(url => {
-      return JSON.stringify(url);
-    });
-
-    let newUser = new User(Object.assign(person, { qrCode }));
-    bcrypt.genSalt(10, (err, salt) => {
-      bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
-        if (err) {
-          console.log(err);
-        }
-        newUser["ssn"] = hash;
-        newUser.save().catch(err => console.log(err));
-      });
-    });
+    newUser.save().catch(err => console.log(err));
   });
 });
 
