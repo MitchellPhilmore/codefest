@@ -8,6 +8,8 @@ function LogIn() {
   const [dob, setDob] = useState("");
   const [key, setKey] = useState("");
 
+  const qrc = 1232432;
+
   const onChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -20,11 +22,17 @@ function LogIn() {
     }
   }
 
-  const selectButton = () => {
-    if(active === "print"){
+  const selectButton = (button) => {
+    if(active === "print" && button !== "print"){
       setActive("key")
-    } else {
+    } else if(active === "key" && button !== "key") {
       setActive("print")
+    } else {
+      if((ssn.length === 8) && (dob.length === 10) && (active === "print")){
+        console.log("submit")
+      } else if ((key.length === 8) && (active === "key")) {
+        console.log("submit key")
+      }
     }
   }
 
@@ -66,13 +74,13 @@ function LogIn() {
     </div>
     <div id="loginButtons" className="flexRow">
       <div
-        onClick={selectButton.bind(this)}
+        onClick={selectButton.bind(this, "print")}
         className={`flexRow loginButtonHolder ${printClass}`}
       >
         <i className="fas fa-fingerprint"></i>
       </div>
       <div
-        onClick={selectButton.bind(this)}
+        onClick={selectButton.bind(this, "key")}
         className={`flexRow loginButtonHolder ${keyClass}`}
       >
         <i className="fas fa-key"></i>

@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Data from './Data';
 
 import './index.css';
 
 function Profile() {
 
-  return (<div id="Profile" className="flexCol">
+  useEffect(() => {
+    const profile = document.getElementById("Profile");
+    profile.classList.remove("down")
+  }, [])
+
+  return (<div id="Profile" className="flexCol down">
     <div className="profileSection flexCol">
       <div>Personal Information</div>
       <div className="profileList">
