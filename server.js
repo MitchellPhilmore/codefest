@@ -34,7 +34,8 @@ let User = mongoose.model("User", {
   tel: String,
   gender: String,
   bloodType: String,
-  allergies: String
+  allergies: String,
+  userID: String
 });
 
 let Visit = mongoose.model("Visit", {
@@ -132,7 +133,7 @@ passport.deserializeUser(function(obj, cb) {
 
 app.get("/signup", function(req, res) {
   let newUser = new User({
-    id: "1232432",
+    userID: "1232432",
     fullName: "Mitchell Philmore",
     dob: "7/22/1987",
     ssn: "123456789",
@@ -156,31 +157,17 @@ app.get("/signup", function(req, res) {
   });
 });
 
-app.post(
-  "/login",
-  passport.authenticate("local", {
-    failureRedirect: "/login"
-  }),
+app.get(
+  "/login/usr/:id",
+  // passport.authenticate("local", {
+  //   failureRedirect: "/login"
+  // }),
   function(req, res) {
-    User.findOne({
-      where: {
-        dob: req.body.dob
-      }
-    }).then(function(dbPost) {
-      res.json("/dashboard");
-    });
+    User.findOne({ userID: req.params.id }, function(err, obj) {
+      res.json(obj);
+    }).catch(err => console.log("can't find this user"));
   }
 );
-
-app.get("/dashboard", (req, res) => {
-  User.find({}, (err, data) => {
-    Visit.findOne({
-      where: {
-        userID: data.id
-      }
-    });
-  });
-});
 
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
