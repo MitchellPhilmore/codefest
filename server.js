@@ -8,6 +8,7 @@ var LocalStrategy = require("passport-local").Strategy;
 let bcrypt = require("bcrypt");
 let Schema = mongoose.Schema;
 let QRCode = require("qrcode");
+let personalData = require("./personalData");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -80,38 +81,24 @@ passport.deserializeUser(function(obj, cb) {
 });
 
 app.get("/signup", async function(req, res) {
-  let random = require("crypto")
-    .randomBytes(10)
-    .toString("hex");
+  let personUrl = "https://www.google.com/";
 
-  let qr = await QRCode.toDataURL(random, { errorCorrectionLevel: "M" }).then(
+  let qr = await QRCode.toString(personUrl, { errorCorrectionLevel: "M" }).then(
     url => {
       return JSON.stringify(url);
     }
   );
 
-  let newUser = new User({
-    userID: "1232432",
-    fullName: "Mitchell Philmore",
-    dob: "7/22/1987",
-    ssn: "123456789",
-    tel: "215-555-5555",
-    gender: "M",
-    bloodType: "A+",
-    allergies: "NA",
-    qrCode: `${qr}`
-  });
-
-  bcrypt.genSalt(10, (err, salt) => {
-    bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
-      if (err) {
-        console.log(err);
-      }
-      newUser["ssn"] = hash;
-      newUser
-        .save()
-        .then(user => res.json(user))
-        .catch(err => console.log(err));
+  personalData.map(person => {
+    let newUser = new User(person);
+    bcrypt.genSalt(10, (err, salt) => {
+      bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
+        if (err) {
+          console.log(err);
+        }
+        newUser["ssn"] = hash;
+        newUser.save().catch(err => console.log(err));
+      });
     });
   });
 });
