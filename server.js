@@ -37,7 +37,8 @@ let User = mongoose.model("User", {
   bloodType: String,
   allergies: String,
   visits: String,
-  qrCode: String
+  qrCode: String,
+  visits: Array
 });
 
 passport.use(
@@ -82,17 +83,9 @@ passport.deserializeUser(function(obj, cb) {
 
 app.get("/initialLoad", async function(req, res) {
   personalData.map(async person => {
-  
-    let newUser = new User(Object.assign(person, { qrCode }));
-    bcrypt.genSalt(10, (err, salt) => {
-      bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
-        if (err) {
-          console.log(err);
-        }
-        newUser["ssn"] = hash;
-        newUser.save().catch(err => console.log(err));
-      });
-    });
+    let newUser = new User(Object.assign(person));
+
+    newUser.save().catch(err => console.log(err));
   });
 });
 
