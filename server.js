@@ -23,7 +23,9 @@ if (process.env.NODE_ENV === "production") {
 // Connect to the Mongo DB
 // mongoose.connect(process.env.MONGODB_URI);
 mongoose
-  .connect("mongodb://admin:codefest2019@ds151486.mlab.com:51486/codefest")
+  .connect(
+    "mongodb://heroku_hvk56k66:rgpk9tlfq5pjg3jailqdrjcsi1@ds135456.mlab.com:35456/heroku_hvk56k66"
+  )
   .then(() => console.log("Connected"))
   .catch(err => console.log(JSON.stringify(err)));
 
@@ -82,7 +84,7 @@ passport.deserializeUser(function(obj, cb) {
 
 app.get("/initialLoad", async function(req, res) {
   personalData.map(async person => {
-    let personUrl = `https://team-kick-ass.herokuapp.com/usr=${person.userID}`;
+    let personUrl = `https://codefest2019.herokuapp.com//usr=${person.userID}`;
 
     let qrCode = await QRCode.toString(personUrl, {
       errorCorrectionLevel: "M"
@@ -103,45 +105,45 @@ app.get("/initialLoad", async function(req, res) {
   });
 });
 
-app.get("/signup", async function(req, res) {
-  let userID = require("crypto")
-    .randomBytes(10)
-    .toString("hex");
+// app.get("/signup", async function(req, res) {
+//   let userID = require("crypto")
+//     .randomBytes(10)
+//     .toString("hex");
 
-  let personUrl = `https://team-kick-ass.herokuapp.com/usr=${userID}`;
+//   let personUrl = `https://codefest2019.herokuapp.com//usr=${userID}`;
 
-  let newQRCode = await QRCode.toString(personUrl, {
-    errorCorrectionLevel: "M"
-  }).then(url => {
-    return JSON.stringify(url);
-  });
+//   let newQRCode = await QRCode.toString(personUrl, {
+//     errorCorrectionLevel: "M"
+//   }).then(url => {
+//     return JSON.stringify(url);
+//   });
 
-  let newUser = new User({
-    userID: userID,
-    fullName: req.body.fullName,
-    dob: req.body.dob,
-    ssn: req.body.ssn,
-    tel: req.body.tel,
-    gender: req.body.gender,
-    bloodType: req.body.bloodType,
-    allergies: req.body.allergies,
-    visits: req.body.visits,
-    qrCode: newQRCode
-  });
+//   let newUser = new User({
+//     userID: userID,
+//     fullName: req.body.fullName,
+//     dob: req.body.dob,
+//     ssn: req.body.ssn,
+//     tel: req.body.tel,
+//     gender: req.body.gender,
+//     bloodType: req.body.bloodType,
+//     allergies: req.body.allergies,
+//     visits: req.body.visits,
+//     qrCode: newQRCode
+//   });
 
-  bcrypt.genSalt(10, (err, salt) => {
-    bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
-      if (err) {
-        console.log(err);
-      }
-      newUser["ssn"] = hash;
-      newUser
-        .save()
-        .then(res => res.json(newUser))
-        .catch(err => console.log(err));
-    });
-  });
-});
+//   bcrypt.genSalt(10, (err, salt) => {
+//     bcrypt.hash(newUser["ssn"], salt, (err, hash) => {
+//       if (err) {
+//         console.log(err);
+//       }
+//       newUser["ssn"] = hash;
+//       newUser
+//         .save()
+//         .then(res => res.json(newUser))
+//         .catch(err => console.log(err));
+//     });
+//   });
+// });
 
 app.get(
   "/login/usr/:id",
