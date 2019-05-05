@@ -26,9 +26,9 @@ function LogIn() {
     } else if(active === "key" && button !== "key") {
       setActive("print")
     } else {
-      if((ssn.length === 8) && (dob.length === 10)){
+      if((ssn.length === 8) && (dob.length === 10) && (active === "print")){
         console.log("submit")
-      } else if (key.length === 8) {
+      } else if ((key.length === 8) && (active === "key")) {
         console.log("submit key")
       }
     }
