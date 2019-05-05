@@ -1,0 +1,500 @@
+Obesity
+Anxiety
+Respiratory problems
+Osteoarthritis
+Respiratory problems
+Visual refractive errors
+Pain in joint
+Respiratory problems
+Hypertension
+Visual refractive errors
+Obesity
+Nail fungus
+Coronary atherosclerosis
+Nail fungus
+Acute bronchitis
+Acute laryngopharyngitis
+Diabetes
+Coronary atherosclerosis
+Acute maxillary sinusitis
+Allergic rhinitis
+Hypertension
+Fibromyalgia/Myositis
+Urinary tract infection
+Respiratory problems
+Cancer
+Hyperlipidemia
+Acute bronchitis
+Osteoarthritis
+Obesity
+Cancer
+Urinary tract infection
+Hypothyroidism
+Cancer
+Hypothyroidism
+Coronary atherosclerosis
+Obesity
+Pain in joint
+Pain in joint
+Cancer
+Allergic rhinitis
+Asthma
+Respiratory problems
+Diabetes
+Cancer
+Diabetes
+Acute bronchitis
+Coronary atherosclerosis
+Major depressive disorder
+Depressive disorder
+Visual refractive errors
+Allergic rhinitis
+Anxiety
+Osteoarthritis
+Depressive disorder
+Respiratory problems
+Visual refractive errors
+Respiratory problems
+Osteoarthritis
+Asthma
+Anxiety
+Acute maxillary sinusitis
+Hyperlipidemia
+Malaise and fatigue
+Coronary atherosclerosis
+Respiratory problems
+Fibromyalgia/Myositis
+Urinary tract infection
+Anxiety
+Acute bronchitis
+Acute bronchitis
+Urinary tract infection
+Urinary tract infection
+Major depressive disorder
+Acute maxillary sinusitis
+Major depressive disorder
+Reflux esophagitis
+Fibromyalgia/Myositis
+Hyperlipidemia
+Hypertension
+Major depressive disorder
+Hyperlipidemia
+Depressive disorder
+Fibromyalgia/Myositis
+Hyperlipidemia
+Osteoarthritis
+Anxiety
+Depressive disorder
+Hyperlipidemia
+Respiratory problems
+Anxiety
+Hyperlipidemia
+Acute maxillary sinusitis
+Acute laryngopharyngitis
+Back pain
+Urinary tract infection
+Allergic rhinitis
+Respiratory problems
+Diabetes
+Major depressive disorder
+Fibromyalgia/Myositis
+Major depressive disorder
+Osteoarthritis
+Anxiety
+Allergic rhinitis
+Depressive disorder
+Hypertension
+Fibromyalgia/Myositis
+Malaise and fatigue
+Anxiety
+Anxiety
+Diabetes
+Acute maxillary sinusitis
+Cancer
+Allergic rhinitis
+Acute laryngopharyngitis
+Obesity
+Major depressive disorder
+Reflux esophagitis
+Acute bronchitis
+Cancer
+Asthma
+Acute bronchitis
+Malaise and fatigue
+Diabetes
+Fibromyalgia/Myositis
+Obesity
+Acute laryngopharyngitis
+Fibromyalgia/Myositis
+Major depressive disorder
+Asthma
+Acute maxillary sinusitis
+Asthma
+Acute maxillary sinusitis
+Osteoarthritis
+Obesity
+Malaise and fatigue
+Nail fungus
+Hypertension
+Acute maxillary sinusitis
+Urinary tract infection
+Visual refractive errors
+Malaise and fatigue
+Asthma
+Hyperlipidemia
+Hypothyroidism
+Cancer
+Acute maxillary sinusitis
+Reflux esophagitis
+Hyperlipidemia
+Allergic rhinitis
+Hyperlipidemia
+Urinary tract infection
+Hypertension
+Obesity
+Reflux esophagitis
+Visual refractive errors
+Coronary atherosclerosis
+Fibromyalgia/Myositis
+Hypertension
+Acute laryngopharyngitis
+Cancer
+Hypertension
+Pain in joint
+Allergic rhinitis
+Malaise and fatigue
+Visual refractive errors
+Acute laryngopharyngitis
+Diabetes
+Hyperlipidemia
+Anxiety
+Diabetes
+Visual refractive errors
+Visual refractive errors
+Obesity
+Visual refractive errors
+Cancer
+Fibromyalgia/Myositis
+Acute bronchitis
+Osteoarthritis
+Acute laryngopharyngitis
+Hyperlipidemia
+Urinary tract infection
+Back pain
+Osteoarthritis
+Acute laryngopharyngitis
+Osteoarthritis
+Anxiety
+Acute bronchitis
+Respiratory problems
+Obesity
+Cancer
+Cancer
+Coronary atherosclerosis
+Hyperlipidemia
+Depressive disorder
+Hyperlipidemia
+Diabetes
+Diabetes
+Hypothyroidism
+Hypothyroidism
+Urinary tract infection
+Diabetes
+Malaise and fatigue
+Coronary atherosclerosis
+Osteoarthritis
+Hyperlipidemia
+Cancer
+Obesity
+Cancer
+Depressive disorder
+Respiratory problems
+Nail fungus
+Obesity
+Osteoarthritis
+Diabetes
+Anxiety
+Acute laryngopharyngitis
+Urinary tract infection
+Acute bronchitis
+Acute bronchitis
+Acute laryngopharyngitis
+Obesity
+Pain in joint
+Cancer
+Acute bronchitis
+Hyperlipidemia
+Respiratory problems
+Anxiety
+Back pain
+Acute maxillary sinusitis
+Hypertension
+Anxiety
+Fibromyalgia/Myositis
+Pain in joint
+Reflux esophagitis
+Malaise and fatigue
+Pain in joint
+Acute laryngopharyngitis
+Pain in joint
+Hyperlipidemia
+Anxiety
+Visual refractive errors
+Urinary tract infection
+Nail fungus
+Acute laryngopharyngitis
+Obesity
+Urinary tract infection
+Acute maxillary sinusitis
+Hypertension
+Hypothyroidism
+Asthma
+Fibromyalgia/Myositis
+Hypertension
+Acute laryngopharyngitis
+Urinary tract infection
+Hyperlipidemia
+Obesity
+Acute bronchitis
+Visual refractive errors
+Allergic rhinitis
+Obesity
+Depressive disorder
+Major depressive disorder
+Nail fungus
+Obesity
+Urinary tract infection
+Visual refractive errors
+Reflux esophagitis
+Osteoarthritis
+Asthma
+Hypertension
+Malaise and fatigue
+Cancer
+Acute bronchitis
+Major depressive disorder
+Asthma
+Coronary atherosclerosis
+Cancer
+Nail fungus
+Depressive disorder
+Nail fungus
+Acute laryngopharyngitis
+Respiratory problems
+Diabetes
+Fibromyalgia/Myositis
+Fibromyalgia/Myositis
+Diabetes
+Cancer
+Anxiety
+Osteoarthritis
+Hypertension
+Acute maxillary sinusitis
+Malaise and fatigue
+Pain in joint
+Major depressive disorder
+Hypertension
+Urinary tract infection
+Nail fungus
+Diabetes
+Hypertension
+Fibromyalgia/Myositis
+Back pain
+Diabetes
+Depressive disorder
+Acute maxillary sinusitis
+Fibromyalgia/Myositis
+Cancer
+Hyperlipidemia
+Fibromyalgia/Myositis
+Acute bronchitis
+Reflux esophagitis
+Acute bronchitis
+Allergic rhinitis
+Hyperlipidemia
+Osteoarthritis
+Hypertension
+Asthma
+Hypothyroidism
+Hyperlipidemia
+Anxiety
+Obesity
+Malaise and fatigue
+Anxiety
+Acute bronchitis
+Major depressive disorder
+Nail fungus
+Acute maxillary sinusitis
+Diabetes
+Major depressive disorder
+Obesity
+Cancer
+Anxiety
+Coronary atherosclerosis
+Fibromyalgia/Myositis
+Reflux esophagitis
+Acute laryngopharyngitis
+Hyperlipidemia
+Anxiety
+Depressive disorder
+Allergic rhinitis
+Osteoarthritis
+Diabetes
+Obesity
+Allergic rhinitis
+Acute maxillary sinusitis
+Asthma
+Osteoarthritis
+Malaise and fatigue
+Hyperlipidemia
+Hyperlipidemia
+Allergic rhinitis
+Allergic rhinitis
+Respiratory problems
+Allergic rhinitis
+Pain in joint
+Nail fungus
+Acute laryngopharyngitis
+Fibromyalgia/Myositis
+Cancer
+Fibromyalgia/Myositis
+Malaise and fatigue
+Allergic rhinitis
+Diabetes
+Nail fungus
+Cancer
+Diabetes
+Fibromyalgia/Myositis
+Acute maxillary sinusitis
+Reflux esophagitis
+Coronary atherosclerosis
+Acute maxillary sinusitis
+Acute laryngopharyngitis
+Fibromyalgia/Myositis
+Obesity
+Allergic rhinitis
+Hypothyroidism
+Back pain
+Acute maxillary sinusitis
+Diabetes
+Major depressive disorder
+Depressive disorder
+Depressive disorder
+Hypothyroidism
+Osteoarthritis
+Cancer
+Cancer
+Major depressive disorder
+Acute bronchitis
+Osteoarthritis
+Acute bronchitis
+Visual refractive errors
+Urinary tract infection
+Anxiety
+Acute bronchitis
+Hypothyroidism
+Allergic rhinitis
+Cancer
+Back pain
+Major depressive disorder
+Back pain
+Urinary tract infection
+Anxiety
+Respiratory problems
+Urinary tract infection
+Major depressive disorder
+Reflux esophagitis
+Visual refractive errors
+Respiratory problems
+Osteoarthritis
+Nail fungus
+Nail fungus
+Depressive disorder
+Hypertension
+Pain in joint
+Acute laryngopharyngitis
+Acute bronchitis
+Hypertension
+Back pain
+Back pain
+Acute maxillary sinusitis
+Back pain
+Anxiety
+Fibromyalgia/Myositis
+Nail fungus
+Reflux esophagitis
+Hypothyroidism
+Anxiety
+Visual refractive errors
+Diabetes
+Cancer
+Back pain
+Diabetes
+Obesity
+Cancer
+Cancer
+Anxiety
+Fibromyalgia/Myositis
+Cancer
+Coronary atherosclerosis
+Asthma
+Reflux esophagitis
+Depressive disorder
+Fibromyalgia/Myositis
+Fibromyalgia/Myositis
+Acute maxillary sinusitis
+Allergic rhinitis
+Back pain
+Obesity
+Diabetes
+Visual refractive errors
+Hyperlipidemia
+Acute bronchitis
+Acute laryngopharyngitis
+Asthma
+Osteoarthritis
+Pain in joint
+Hyperlipidemia
+Obesity
+Acute laryngopharyngitis
+Respiratory problems
+Nail fungus
+Major depressive disorder
+Cancer
+Osteoarthritis
+Respiratory problems
+Anxiety
+Anxiety
+Diabetes
+Acute bronchitis
+Fibromyalgia/Myositis
+Respiratory problems
+Acute laryngopharyngitis
+Allergic rhinitis
+Back pain
+Hyperlipidemia
+Acute bronchitis
+Major depressive disorder
+Back pain
+Obesity
+Acute laryngopharyngitis
+Obesity
+Urinary tract infection
+Diabetes
+Asthma
+Reflux esophagitis
+Hyperlipidemia
+Urinary tract infection
+Osteoarthritis
+Pain in joint
+Anxiety
+Acute maxillary sinusitis
+Obesity
+Obesity
+Anxiety
+Diabetes
+Diabetes
+Diabetes
+Acute laryngopharyngitis
+Visual refractive errors
+Respiratory problems

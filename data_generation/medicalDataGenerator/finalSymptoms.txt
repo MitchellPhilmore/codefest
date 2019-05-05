@@ -1,0 +1,500 @@
+Cough, Wheezing, Low back pain, Headaches, Numbness or tingling in hands
+Wheezing, Dizziness
+Heart palpitations, Blood in stool, Dizziness, Urinary problems
+Low back pain, Pelvic pain, Foot/Ankle pain
+Diarrhea, Wheezing
+Nausea or vomiting, Nasal congestion, Sore throat
+Nasal congestion, Wheezing, Foot/Leg swelling, Low back pain
+Shoulder pain, Numbness or tingling in hands, Foot/Ankle pain
+Dizziness, Eye Problems, Hip pain, Abdominal pain
+Eye Problems, Dizziness, Sore throat, Heart palpitations
+Foot/Ankle pain, Diarrhea, Numbness or tingling in hands, Neck pain, Knee pain
+Headaches, Heart palpitations, Nasal congestion
+Difficulty swallowing, Nausea or vomiting, Abdominal pain
+Pelvic pain, Constipation, Urinary problems, Foot/Ankle pain
+Abdominal pain, Eye Problems, Hip pain, Headaches
+Urinary problems, Sore throat, Hip pain, Neck pain
+Eye Problems, Constipation, Knee pain, Eye Discomfort, Shoulder pain
+Dizziness, Shoulder pain
+Shoulder pain, Shortness of breath, Numbness or tingling in hands, Foot/Ankle pain
+Diarrhea, Foot/Ankle pain
+Diarrhea, Constipation, Pelvic pain
+Eye Discomfort, Foot/Ankle pain, Wheezing
+Low back pain, Nausea or vomiting, Numbness or tingling in hands
+Neck pain, Abdominal pain, Eye Problems, Eye Discomfort, Blood in stool
+Numbness or tingling in hands, Neck pain
+Dizziness, Neck pain, Headaches, Blood in stool
+Dizziness, Urinary problems, Headaches, Abdominal pain, Shortness of breath
+Constipation, Neck pain, Abdominal pain
+Heart palpitations, Low back pain
+Wheezing, Constipation, Headaches
+Nasal congestion, Eye Discomfort, Headaches
+Shortness of breath, Hip pain, Chest Pain, Heart palpitations
+Headaches, Eye Discomfort
+Cough, Abdominal pain, Shortness of breath
+Foot/Ankle pain, Shoulder pain
+Neck pain, Eye Discomfort
+Low back pain, Foot/Leg swelling, Heart palpitations
+Knee pain, Hip pain, Shortness of breath, Eye Discomfort, Urinary problems
+Low back pain, Pelvic pain, Abdominal pain, Knee pain
+Foot/Ankle pain, Eye Problems, Dizziness
+Wheezing, Foot/Ankle pain, Sore throat
+Shortness of breath, Pelvic pain, Nausea or vomiting
+Difficulty swallowing, Cough, Wheezing, Dizziness
+Numbness or tingling in hands, Foot/Ankle pain
+Hip pain, Shortness of breath, Neck pain
+Low back pain, Numbness or tingling in hands
+Knee pain, Cough, Shortness of breath
+Abdominal pain, Constipation
+Sore throat, Knee pain, Headaches
+Foot/Ankle pain, Headaches, Numbness or tingling in hands, Low back pain
+Foot/Ankle pain, Abdominal pain, Eye Problems, Urinary problems, Sore throat
+Abdominal pain, Foot/Ankle pain, Cough, Numbness or tingling in hands, Chest Pain
+Headaches, Foot/Ankle pain, Eye Discomfort, Chest Pain
+Nausea or vomiting, Sore throat
+Foot/Leg swelling, Abdominal pain, Nasal congestion, Hip pain, Neck pain
+Chest Pain, Pelvic pain
+Shortness of breath, Constipation, Numbness or tingling in hands, Wheezing, Urinary problems
+Headaches, Hip pain, Dizziness, Neck pain
+Abdominal pain, Knee pain, Hip pain, Heart palpitations
+Constipation, Headaches, Low back pain, Knee pain, Nasal congestion
+Cough, Knee pain
+Eye Discomfort, Dizziness, Blood in stool, Difficulty swallowing, Shoulder pain
+Difficulty swallowing, Low back pain
+Eye Discomfort, Shoulder pain, Nausea or vomiting
+Chest Pain, Nausea or vomiting, Knee pain, Hip pain, Abdominal pain
+Numbness or tingling in hands, Dizziness
+Constipation, Chest Pain, Low back pain
+Nausea or vomiting, Blood in stool
+Sore throat, Foot/Ankle pain, Foot/Leg swelling
+Dizziness, Knee pain, Abdominal pain
+Hip pain, Nasal congestion, Wheezing
+Low back pain, Pelvic pain, Hip pain
+Pelvic pain, Foot/Ankle pain
+Urinary problems, Diarrhea, Dizziness
+Nasal congestion, Low back pain, Pelvic pain, Shoulder pain, Foot/Leg swelling
+Cough, Foot/Ankle pain, Nasal congestion
+Cough, Nasal congestion, Urinary problems
+Nasal congestion, Low back pain, Difficulty swallowing, Abdominal pain
+Chest Pain, Numbness or tingling in hands, Hip pain
+Diarrhea, Chest Pain, Dizziness, Cough
+Shortness of breath, Blood in stool, Diarrhea, Knee pain
+Nasal congestion, Sore throat
+Dizziness, Nasal congestion, Hip pain
+Blood in stool, Headaches, Diarrhea, Nasal congestion, Neck pain
+Cough, Nausea or vomiting, Numbness or tingling in hands, Urinary problems
+Shortness of breath, Difficulty swallowing, Chest Pain, Knee pain, Heart palpitations
+Heart palpitations, Knee pain, Sore throat, Hip pain, Nausea or vomiting
+Wheezing, Difficulty swallowing
+Low back pain, Cough, Abdominal pain, Headaches, Foot/Leg swelling
+Pelvic pain, Cough, Heart palpitations, Sore throat
+Shoulder pain, Headaches, Dizziness, Constipation, Numbness or tingling in hands
+Neck pain, Urinary problems, Foot/Leg swelling
+Nasal congestion, Dizziness, Shortness of breath
+Eye Discomfort, Eye Problems, Foot/Ankle pain, Knee pain
+Numbness or tingling in hands, Knee pain, Heart palpitations, Constipation, Diarrhea
+Eye Discomfort, Neck pain, Dizziness, Sore throat
+Diarrhea, Sore throat
+Nausea or vomiting, Neck pain
+Nausea or vomiting, Difficulty swallowing
+Neck pain, Nausea or vomiting, Constipation, Chest Pain
+Sore throat, Pelvic pain, Neck pain, Foot/Ankle pain, Diarrhea
+Shortness of breath, Dizziness, Nausea or vomiting
+Shortness of breath, Cough, Blood in stool, Difficulty swallowing, Sore throat
+Foot/Ankle pain, Pelvic pain
+Eye Discomfort, Shortness of breath, Wheezing, Chest Pain, Nasal congestion
+Shoulder pain, Low back pain, Abdominal pain, Foot/Ankle pain, Heart palpitations
+Knee pain, Blood in stool
+Shortness of breath, Constipation
+Chest Pain, Difficulty swallowing, Sore throat, Blood in stool
+Dizziness, Cough, Knee pain, Shoulder pain, Diarrhea
+Foot/Ankle pain, Eye Discomfort, Shortness of breath, Low back pain
+Chest Pain, Neck pain, Shoulder pain, Foot/Ankle pain
+Headaches, Shoulder pain, Urinary problems, Difficulty swallowing
+Shoulder pain, Heart palpitations
+Abdominal pain, Constipation, Low back pain
+Nasal congestion, Blood in stool, Nausea or vomiting, Eye Problems
+Numbness or tingling in hands, Diarrhea, Blood in stool, Shortness of breath
+Pelvic pain, Low back pain
+Abdominal pain, Nausea or vomiting, Eye Discomfort
+Hip pain, Headaches, Shortness of breath
+Chest Pain, Sore throat
+Foot/Leg swelling, Chest Pain, Wheezing, Eye Problems
+Chest Pain, Knee pain, Dizziness
+Foot/Leg swelling, Sore throat, Headaches, Hip pain
+Blood in stool, Chest Pain, Diarrhea, Foot/Leg swelling, Dizziness
+Sore throat, Abdominal pain, Eye Problems
+Cough, Eye Discomfort, Difficulty swallowing, Headaches, Low back pain
+Foot/Leg swelling, Chest Pain
+Knee pain, Sore throat
+Cough, Dizziness, Pelvic pain, Nasal congestion, Heart palpitations
+Dizziness, Foot/Leg swelling, Sore throat, Chest Pain
+Shoulder pain, Diarrhea, Chest Pain, Foot/Leg swelling
+Nasal congestion, Sore throat, Neck pain, Difficulty swallowing
+Dizziness, Foot/Leg swelling, Pelvic pain
+Abdominal pain, Dizziness
+Shortness of breath, Headaches, Shoulder pain, Chest Pain
+Numbness or tingling in hands, Shoulder pain, Nasal congestion, Urinary problems, Constipation
+Low back pain, Headaches, Eye Discomfort, Foot/Leg swelling, Dizziness
+Low back pain, Foot/Ankle pain, Difficulty swallowing, Shortness of breath
+Blood in stool, Chest Pain, Cough, Eye Discomfort
+Constipation, Difficulty swallowing, Chest Pain
+Blood in stool, Dizziness, Cough, Chest Pain, Urinary problems
+Nasal congestion, Cough, Hip pain
+Cough, Pelvic pain, Nausea or vomiting
+Headaches, Nasal congestion
+Dizziness, Eye Problems, Diarrhea, Knee pain, Pelvic pain
+Chest Pain, Neck pain, Heart palpitations, Shoulder pain
+Foot/Leg swelling, Shortness of breath, Difficulty swallowing, Nasal congestion
+Foot/Leg swelling, Hip pain, Diarrhea, Blood in stool, Nasal congestion
+Sore throat, Shortness of breath, Shoulder pain, Diarrhea
+Knee pain, Chest Pain
+Heart palpitations, Dizziness, Wheezing
+Pelvic pain, Shoulder pain, Headaches, Neck pain, Knee pain
+Headaches, Foot/Ankle pain, Abdominal pain
+Hip pain, Constipation, Foot/Ankle pain, Eye Discomfort, Wheezing
+Cough, Abdominal pain
+Urinary problems, Difficulty swallowing
+Chest Pain, Cough, Knee pain, Abdominal pain, Dizziness
+Cough, Heart palpitations
+Foot/Leg swelling, Wheezing, Diarrhea, Headaches, Eye Discomfort
+Heart palpitations, Numbness or tingling in hands, Knee pain, Cough, Headaches
+Abdominal pain, Foot/Ankle pain
+Wheezing, Pelvic pain
+Foot/Ankle pain, Headaches
+Eye Problems, Nausea or vomiting, Low back pain
+Nasal congestion, Difficulty swallowing, Eye Discomfort
+Eye Discomfort, Headaches, Blood in stool
+Foot/Leg swelling, Difficulty swallowing, Heart palpitations
+Wheezing, Shortness of breath, Eye Problems, Blood in stool, Headaches
+Chest Pain, Pelvic pain
+Blood in stool, Chest Pain, Pelvic pain, Wheezing
+Numbness or tingling in hands, Knee pain
+Pelvic pain, Blood in stool, Constipation
+Constipation, Heart palpitations, Urinary problems, Wheezing, Numbness or tingling in hands
+Sore throat, Difficulty swallowing
+Dizziness, Chest Pain
+Hip pain, Nasal congestion
+Nausea or vomiting, Chest Pain
+Numbness or tingling in hands, Urinary problems, Foot/Ankle pain, Cough
+Wheezing, Numbness or tingling in hands, Eye Problems, Constipation
+Shortness of breath, Hip pain, Eye Problems, Chest Pain, Dizziness
+Foot/Leg swelling, Neck pain, Cough
+Eye Discomfort, Numbness or tingling in hands
+Heart palpitations, Abdominal pain, Constipation, Difficulty swallowing, Diarrhea
+Nasal congestion, Low back pain
+Headaches, Numbness or tingling in hands, Pelvic pain, Constipation, Knee pain
+Nausea or vomiting, Numbness or tingling in hands, Cough, Diarrhea
+Low back pain, Numbness or tingling in hands, Nausea or vomiting
+Knee pain, Foot/Leg swelling, Urinary problems, Neck pain, Eye Problems
+Cough, Abdominal pain, Knee pain, Shortness of breath
+Heart palpitations, Chest Pain, Foot/Ankle pain
+Nasal congestion, Sore throat
+Neck pain, Eye Discomfort
+Heart palpitations, Eye Problems, Low back pain
+Foot/Ankle pain, Difficulty swallowing, Diarrhea, Numbness or tingling in hands, Eye Discomfort
+Hip pain, Difficulty swallowing, Cough
+Neck pain, Difficulty swallowing, Nausea or vomiting
+Sore throat, Low back pain, Shoulder pain, Chest Pain
+Hip pain, Sore throat, Dizziness
+Low back pain, Urinary problems, Constipation, Foot/Leg swelling, Neck pain
+Eye Problems, Urinary problems, Sore throat
+Hip pain, Dizziness
+Foot/Ankle pain, Wheezing, Shoulder pain, Knee pain
+Shoulder pain, Eye Discomfort, Low back pain, Neck pain
+Low back pain, Nausea or vomiting, Pelvic pain, Headaches
+Eye Problems, Chest Pain, Foot/Ankle pain, Urinary problems
+Sore throat, Nasal congestion, Diarrhea, Shortness of breath
+Wheezing, Chest Pain, Foot/Ankle pain, Constipation
+Shortness of breath, Dizziness, Low back pain, Urinary problems, Numbness or tingling in hands
+Sore throat, Eye Discomfort, Foot/Leg swelling
+Wheezing, Pelvic pain, Hip pain, Cough, Dizziness
+Blood in stool, Headaches, Dizziness, Shortness of breath
+Blood in stool, Nasal congestion, Chest Pain, Shortness of breath, Dizziness
+Pelvic pain, Urinary problems, Difficulty swallowing, Nasal congestion, Heart palpitations
+Eye Discomfort, Hip pain
+Foot/Leg swelling, Nasal congestion, Difficulty swallowing, Low back pain, Sore throat
+Diarrhea, Foot/Ankle pain
+Low back pain, Nausea or vomiting, Urinary problems
+Foot/Leg swelling, Heart palpitations
+Sore throat, Low back pain, Dizziness, Foot/Leg swelling, Hip pain
+Eye Discomfort, Nasal congestion, Hip pain
+Shoulder pain, Low back pain, Eye Problems, Abdominal pain, Hip pain
+Low back pain, Dizziness, Knee pain
+Low back pain, Nasal congestion, Abdominal pain, Eye Problems, Constipation
+Low back pain, Constipation
+Numbness or tingling in hands, Shortness of breath, Abdominal pain
+Abdominal pain, Constipation
+Heart palpitations, Knee pain, Neck pain, Dizziness, Low back pain
+Wheezing, Cough, Difficulty swallowing, Foot/Leg swelling, Eye Problems
+Neck pain, Knee pain, Foot/Leg swelling, Heart palpitations, Foot/Ankle pain
+Constipation, Blood in stool, Dizziness, Diarrhea, Difficulty swallowing
+Sore throat, Urinary problems, Eye Discomfort, Wheezing, Nausea or vomiting
+Neck pain, Eye Discomfort, Numbness or tingling in hands
+Chest Pain, Constipation
+Difficulty swallowing, Headaches, Nausea or vomiting
+Nausea or vomiting, Sore throat, Foot/Leg swelling, Urinary problems, Knee pain
+Nasal congestion, Constipation, Numbness or tingling in hands, Wheezing
+Sore throat, Diarrhea, Numbness or tingling in hands
+Diarrhea, Heart palpitations, Abdominal pain, Knee pain
+Numbness or tingling in hands, Low back pain, Eye Discomfort, Difficulty swallowing, Shortness of breath
+Heart palpitations, Chest Pain, Foot/Leg swelling
+Hip pain, Headaches, Blood in stool, Abdominal pain, Nasal congestion
+Urinary problems, Pelvic pain, Knee pain, Dizziness, Hip pain
+Neck pain, Headaches, Hip pain
+Dizziness, Chest Pain, Pelvic pain
+Cough, Eye Discomfort
+Pelvic pain, Blood in stool
+Low back pain, Cough, Sore throat, Foot/Leg swelling
+Shoulder pain, Blood in stool, Foot/Leg swelling
+Sore throat, Headaches, Nasal congestion
+Urinary problems, Constipation, Numbness or tingling in hands
+Abdominal pain, Low back pain
+Shortness of breath, Numbness or tingling in hands, Chest Pain
+Eye Discomfort, Chest Pain, Cough, Constipation
+Sore throat, Dizziness
+Foot/Leg swelling, Knee pain
+Diarrhea, Eye Problems, Pelvic pain
+Numbness or tingling in hands, Heart palpitations
+Blood in stool, Cough
+Cough, Pelvic pain, Diarrhea, Dizziness
+Constipation, Cough, Hip pain, Foot/Leg swelling, Urinary problems
+Nausea or vomiting, Headaches, Dizziness
+Eye Problems, Hip pain, Diarrhea, Chest Pain, Shortness of breath
+Foot/Leg swelling, Nausea or vomiting, Headaches, Wheezing, Abdominal pain
+Urinary problems, Knee pain, Abdominal pain, Dizziness, Headaches
+Pelvic pain, Eye Discomfort
+Headaches, Hip pain, Diarrhea, Eye Problems, Wheezing
+Cough, Nasal congestion, Hip pain, Difficulty swallowing
+Nasal congestion, Foot/Ankle pain, Eye Problems, Hip pain, Cough
+Shoulder pain, Numbness or tingling in hands, Chest Pain, Hip pain
+Wheezing, Constipation, Difficulty swallowing, Numbness or tingling in hands, Urinary problems
+Shortness of breath, Chest Pain, Blood in stool, Nasal congestion, Headaches
+Urinary problems, Heart palpitations, Wheezing, Eye Discomfort
+Chest Pain, Abdominal pain, Nasal congestion, Low back pain, Sore throat
+Sore throat, Dizziness, Difficulty swallowing, Foot/Ankle pain
+Pelvic pain, Chest Pain, Knee pain
+Blood in stool, Shortness of breath, Low back pain, Chest Pain, Pelvic pain
+Urinary problems, Sore throat, Hip pain, Chest Pain
+Numbness or tingling in hands, Headaches, Low back pain
+Constipation, Headaches, Chest Pain
+Cough, Foot/Ankle pain, Foot/Leg swelling
+Eye Discomfort, Knee pain, Eye Problems, Chest Pain
+Abdominal pain, Headaches
+Shortness of breath, Low back pain
+Hip pain, Shortness of breath, Pelvic pain
+Wheezing, Constipation, Diarrhea, Low back pain, Heart palpitations
+Diarrhea, Blood in stool
+Foot/Ankle pain, Neck pain, Knee pain, Nausea or vomiting
+Cough, Eye Discomfort, Dizziness
+Shortness of breath, Wheezing, Hip pain, Difficulty swallowing, Diarrhea
+Wheezing, Sore throat, Shortness of breath, Nausea or vomiting, Pelvic pain
+Knee pain, Neck pain, Headaches, Eye Problems
+Dizziness, Foot/Ankle pain, Diarrhea, Neck pain
+Heart palpitations, Nausea or vomiting, Wheezing, Pelvic pain
+Low back pain, Heart palpitations, Foot/Ankle pain, Numbness or tingling in hands
+Low back pain, Hip pain
+Shortness of breath, Heart palpitations, Diarrhea, Cough, Knee pain
+Blood in stool, Sore throat, Cough, Neck pain
+Nausea or vomiting, Dizziness, Pelvic pain, Low back pain
+Difficulty swallowing, Blood in stool, Headaches, Wheezing, Eye Discomfort
+Neck pain, Wheezing, Pelvic pain
+Heart palpitations, Shoulder pain, Sore throat
+Heart palpitations, Pelvic pain, Shortness of breath, Sore throat, Eye Problems
+Constipation, Heart palpitations
+Nasal congestion, Hip pain, Shoulder pain, Blood in stool
+Nasal congestion, Diarrhea
+Foot/Leg swelling, Knee pain, Nasal congestion, Pelvic pain
+Dizziness, Cough, Diarrhea, Difficulty swallowing
+Shoulder pain, Nausea or vomiting, Foot/Ankle pain, Shortness of breath
+Nasal congestion, Chest Pain, Urinary problems, Cough, Foot/Ankle pain
+Shoulder pain, Dizziness, Neck pain
+Foot/Leg swelling, Neck pain, Heart palpitations, Headaches, Chest Pain
+Diarrhea, Knee pain, Pelvic pain, Foot/Ankle pain
+Abdominal pain, Eye Discomfort, Cough, Shoulder pain
+Cough, Low back pain, Neck pain
+Cough, Abdominal pain, Chest Pain, Wheezing, Eye Problems
+Pelvic pain, Hip pain, Foot/Ankle pain, Knee pain
+Numbness or tingling in hands, Shoulder pain, Foot/Leg swelling
+Eye Problems, Hip pain, Cough, Shoulder pain
+Shortness of breath, Dizziness, Abdominal pain, Heart palpitations
+Low back pain, Eye Discomfort, Neck pain
+Eye Problems, Constipation, Heart palpitations, Shortness of breath
+Sore throat, Dizziness
+Cough, Blood in stool, Knee pain, Pelvic pain, Difficulty swallowing
+Foot/Leg swelling, Hip pain, Sore throat
+Low back pain, Eye Problems
+Urinary problems, Abdominal pain, Diarrhea
+Headaches, Foot/Leg swelling, Chest Pain
+Nausea or vomiting, Headaches, Knee pain, Hip pain, Numbness or tingling in hands
+Difficulty swallowing, Sore throat, Numbness or tingling in hands
+Heart palpitations, Constipation, Diarrhea
+Nasal congestion, Shoulder pain, Dizziness
+Pelvic pain, Eye Discomfort, Numbness or tingling in hands, Foot/Ankle pain, Headaches
+Foot/Ankle pain, Diarrhea, Headaches, Chest Pain, Heart palpitations
+Nausea or vomiting, Eye Problems
+Wheezing, Sore throat
+Eye Problems, Chest Pain, Blood in stool, Nausea or vomiting, Nasal congestion
+Foot/Ankle pain, Eye Problems, Sore throat, Numbness or tingling in hands
+Sore throat, Diarrhea
+Eye Problems, Foot/Leg swelling, Dizziness, Shoulder pain
+Hip pain, Pelvic pain, Numbness or tingling in hands, Foot/Leg swelling, Foot/Ankle pain
+Difficulty swallowing, Dizziness, Heart palpitations, Constipation, Blood in stool
+Diarrhea, Sore throat, Neck pain, Urinary problems, Nasal congestion
+Difficulty swallowing, Eye Problems
+Hip pain, Urinary problems, Knee pain, Neck pain, Shortness of breath
+Chest Pain, Eye Problems
+Knee pain, Abdominal pain
+Shoulder pain, Neck pain, Constipation, Hip pain
+Abdominal pain, Eye Discomfort
+Heart palpitations, Nausea or vomiting
+Blood in stool, Nasal congestion, Hip pain, Headaches
+Dizziness, Cough, Sore throat
+Abdominal pain, Knee pain, Hip pain, Nasal congestion
+Shortness of breath, Eye Problems, Dizziness, Urinary problems, Chest Pain
+Eye Problems, Sore throat, Hip pain, Shoulder pain
+Chest Pain, Diarrhea
+Difficulty swallowing, Wheezing, Hip pain
+Neck pain, Foot/Leg swelling, Heart palpitations, Dizziness, Eye Problems
+Heart palpitations, Eye Discomfort
+Hip pain, Wheezing, Numbness or tingling in hands, Headaches, Nausea or vomiting
+Low back pain, Pelvic pain, Blood in stool
+Constipation, Eye Problems
+Sore throat, Eye Problems, Nausea or vomiting
+Cough, Low back pain
+Shoulder pain, Blood in stool, Eye Problems, Heart palpitations
+Pelvic pain, Diarrhea, Hip pain, Headaches, Sore throat
+Foot/Leg swelling, Abdominal pain, Shoulder pain, Eye Discomfort
+Foot/Leg swelling, Knee pain, Numbness or tingling in hands, Pelvic pain, Foot/Ankle pain
+Wheezing, Hip pain
+Sore throat, Wheezing, Foot/Ankle pain
+Nasal congestion, Shoulder pain, Knee pain, Foot/Ankle pain, Sore throat
+Urinary problems, Neck pain, Shoulder pain, Eye Problems
+Nasal congestion, Difficulty swallowing
+Nasal congestion, Blood in stool, Knee pain
+Wheezing, Low back pain, Urinary problems, Knee pain, Sore throat
+Eye Problems, Neck pain, Difficulty swallowing
+Shortness of breath, Numbness or tingling in hands, Abdominal pain
+Shortness of breath, Low back pain
+Abdominal pain, Urinary problems, Shortness of breath
+Dizziness, Knee pain, Blood in stool
+Shoulder pain, Foot/Ankle pain, Eye Problems, Urinary problems, Pelvic pain
+Wheezing, Low back pain, Abdominal pain
+Neck pain, Wheezing, Eye Problems, Hip pain, Heart palpitations
+Low back pain, Blood in stool, Heart palpitations, Dizziness, Shoulder pain
+Heart palpitations, Chest Pain, Eye Discomfort, Sore throat, Hip pain
+Cough, Headaches, Pelvic pain, Sore throat, Abdominal pain
+Knee pain, Foot/Leg swelling
+Sore throat, Abdominal pain
+Low back pain, Diarrhea
+Nasal congestion, Low back pain, Abdominal pain, Blood in stool, Constipation
+Eye Problems, Nasal congestion, Dizziness, Hip pain
+Pelvic pain, Shoulder pain, Headaches, Wheezing
+Diarrhea, Constipation, Nausea or vomiting, Urinary problems, Wheezing
+Difficulty swallowing, Foot/Leg swelling
+Pelvic pain, Low back pain, Neck pain, Sore throat
+Heart palpitations, Difficulty swallowing, Chest Pain, Foot/Leg swelling
+Dizziness, Difficulty swallowing, Numbness or tingling in hands
+Pelvic pain, Neck pain, Foot/Ankle pain
+Shortness of breath, Blood in stool
+Blood in stool, Nausea or vomiting, Nasal congestion, Shortness of breath
+Sore throat, Foot/Leg swelling
+Low back pain, Foot/Ankle pain
+Foot/Leg swelling, Neck pain
+Nausea or vomiting, Eye Problems, Shoulder pain, Difficulty swallowing, Heart palpitations
+Chest Pain, Foot/Leg swelling
+Urinary problems, Eye Problems, Neck pain
+Foot/Ankle pain, Shoulder pain, Cough, Shortness of breath
+Chest Pain, Eye Problems, Foot/Ankle pain
+Dizziness, Eye Discomfort, Knee pain
+Pelvic pain, Nasal congestion, Constipation, Low back pain, Shortness of breath
+Foot/Leg swelling, Sore throat, Wheezing, Headaches, Difficulty swallowing
+Knee pain, Abdominal pain, Heart palpitations
+Abdominal pain, Cough, Diarrhea, Eye Problems
+Neck pain, Urinary problems, Difficulty swallowing, Chest Pain, Shoulder pain
+Eye Problems, Dizziness
+Difficulty swallowing, Nausea or vomiting, Low back pain, Wheezing
+Hip pain, Nausea or vomiting, Constipation, Wheezing
+Eye Discomfort, Difficulty swallowing, Nausea or vomiting
+Neck pain, Nasal congestion, Urinary problems
+Diarrhea, Cough
+Hip pain, Eye Problems, Nasal congestion, Shoulder pain, Dizziness
+Dizziness, Headaches, Urinary problems, Foot/Ankle pain
+Nasal congestion, Hip pain
+Pelvic pain, Abdominal pain, Constipation, Sore throat
+Shoulder pain, Blood in stool
+Dizziness, Blood in stool, Urinary problems, Pelvic pain, Numbness or tingling in hands
+Nasal congestion, Heart palpitations, Dizziness, Knee pain, Urinary problems
+Sore throat, Cough, Hip pain
+Urinary problems, Knee pain
+Heart palpitations, Sore throat, Foot/Ankle pain
+Eye Discomfort, Foot/Leg swelling, Neck pain, Wheezing
+Urinary problems, Numbness or tingling in hands
+Shoulder pain, Knee pain, Foot/Leg swelling, Chest Pain, Urinary problems
+Cough, Nausea or vomiting
+Hip pain, Eye Discomfort, Shortness of breath, Wheezing
+Foot/Ankle pain, Urinary problems, Neck pain
+Shortness of breath, Heart palpitations, Abdominal pain, Low back pain, Eye Discomfort
+Hip pain, Heart palpitations, Knee pain, Cough, Difficulty swallowing
+Heart palpitations, Hip pain
+Blood in stool, Headaches, Chest Pain
+Knee pain, Urinary problems, Neck pain, Wheezing
+Constipation, Diarrhea, Eye Problems
+Difficulty swallowing, Nasal congestion, Neck pain, Heart palpitations, Blood in stool
+Foot/Ankle pain, Urinary problems, Wheezing, Knee pain
+Abdominal pain, Difficulty swallowing, Low back pain
+Difficulty swallowing, Sore throat, Hip pain
+Eye Problems, Eye Discomfort, Difficulty swallowing, Cough, Chest Pain
+Nasal congestion, Foot/Ankle pain, Sore throat, Low back pain
+Shortness of breath, Knee pain, Difficulty swallowing, Hip pain, Nasal congestion
+Foot/Leg swelling, Heart palpitations, Neck pain, Numbness or tingling in hands
+Dizziness, Knee pain, Nasal congestion
+Sore throat, Constipation, Difficulty swallowing
+Heart palpitations, Neck pain, Numbness or tingling in hands, Nasal congestion
+Wheezing, Nasal congestion, Abdominal pain
+Low back pain, Chest Pain, Sore throat, Shoulder pain, Diarrhea
+Foot/Ankle pain, Constipation, Hip pain, Shoulder pain
+Hip pain, Dizziness
+Urinary problems, Sore throat, Eye Discomfort, Nausea or vomiting
+Difficulty swallowing, Hip pain, Numbness or tingling in hands, Chest Pain, Foot/Leg swelling
+Cough, Dizziness, Shoulder pain, Foot/Ankle pain, Neck pain
+Eye Problems, Urinary problems
+Dizziness, Blood in stool, Eye Discomfort, Heart palpitations
+Foot/Ankle pain, Shortness of breath
+Numbness or tingling in hands, Dizziness, Shoulder pain, Shortness of breath
+Eye Problems, Blood in stool, Heart palpitations
+Blood in stool, Hip pain, Constipation
+Hip pain, Knee pain, Constipation, Cough
+Sore throat, Urinary problems, Low back pain, Foot/Leg swelling
+Numbness or tingling in hands, Foot/Leg swelling
+Shortness of breath, Pelvic pain, Shoulder pain, Knee pain
+Pelvic pain, Diarrhea, Hip pain, Cough, Low back pain
+Foot/Leg swelling, Low back pain, Chest Pain, Shortness of breath
+Sore throat, Hip pain, Constipation, Heart palpitations, Knee pain
+Nasal congestion, Cough, Constipation
+Foot/Leg swelling, Nasal congestion, Difficulty swallowing
+Nausea or vomiting, Foot/Leg swelling, Headaches, Hip pain, Urinary problems
+Heart palpitations, Difficulty swallowing, Numbness or tingling in hands
+Low back pain, Shortness of breath, Constipation
+Low back pain, Cough, Diarrhea
+Heart palpitations, Abdominal pain, Eye Discomfort
+Urinary problems, Cough, Headaches
+Nausea or vomiting, Difficulty swallowing, Hip pain
+Abdominal pain, Cough, Low back pain
+Abdominal pain, Hip pain, Headaches
+Wheezing, Difficulty swallowing
+Cough, Pelvic pain, Eye Problems
+Knee pain, Wheezing
+Hip pain, Urinary problems, Wheezing, Shoulder pain, Pelvic pain
+Difficulty swallowing, Abdominal pain, Knee pain, Numbness or tingling in hands
+Abdominal pain, Blood in stool, Nausea or vomiting, Constipation, Neck pain
+Constipation, Difficulty swallowing
+Diarrhea, Heart palpitations
+Shoulder pain, Headaches, Foot/Ankle pain, Eye Discomfort
+Foot/Leg swelling, Eye Discomfort, Pelvic pain, Eye Problems, Foot/Ankle pain
+Abdominal pain, Foot/Leg swelling, Diarrhea
+Neck pain, Pelvic pain, Urinary problems, Low back pain
+Heart palpitations, Headaches, Abdominal pain, Shortness of breath, Knee pain
+Nasal congestion, Foot/Leg swelling, Knee pain, Nausea or vomiting, Urinary problems
+Eye Problems, Shoulder pain
+Shortness of breath, Low back pain, Blood in stool, Shoulder pain
