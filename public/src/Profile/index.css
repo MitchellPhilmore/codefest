@@ -7,6 +7,13 @@
   border-top-left-radius: 10%;
   background: rgb(0, 24, 93);
   background: radial-gradient(circle, rgb(0, 13, 52) 10%, rgb(0, 27, 101) 100%);
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+#Profile.down {
+  bottom: -6em;
+  opacity: 0;
 }
 
 .titleBox {
