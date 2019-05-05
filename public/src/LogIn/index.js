@@ -32,6 +32,7 @@ function LogIn() {
       if((ssn.length === 11) && (dob.length === 10) && (active === "print")){
         axios.get(`/login/user/${qrc}/${ssn}/${dob}`)
              .then((user, err) => {
+               debugger
                if(err || user.data.user && user.data.user === "none"){
                  return console.log(err || user.data);
                }

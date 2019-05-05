@@ -6,10 +6,12 @@ import './index.css';
 function NavBar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (<div id="NavBar" className="flexRow">
-    <div className="navLeftButton">
-    </div>
-    <div className="navRightButton"></div>
+
   </div>);
 }
 
 export default NavBar;
+
+// <div className="navLeftButton">
+// </div>
+// <div className="navRightButton"></div>

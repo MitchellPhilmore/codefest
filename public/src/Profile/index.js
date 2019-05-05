@@ -4,6 +4,7 @@ import Data from './Data';
 import './index.css';
 
 function Profile() {
+  debugger
   const pdata = JSON.parse(localStorage.userData);
 
   delete pdata.qrCode;
@@ -12,7 +13,7 @@ function Profile() {
   delete pdata.__v;
   delete pdata._id;
 
-  const vdata = pdata.visits;
+  const vdata = pdata.visits[0];
   delete pdata.visits;
   debugger
 
@@ -41,12 +42,12 @@ function Profile() {
       </div>
     </div>
     <div className="profileSection flexCol">
-      <div>Medical Information</div>
+      <div>Last Visit</div>
       <div className="profileList">
 
         {allVisitKeys.map((data, index) => {
           return (
-            <Data key={index} label={data} text={profileData[data]} />
+            <Data key={index} label={data} text={visitData[data]} />
           )
         })}
 
