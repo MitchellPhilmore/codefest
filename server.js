@@ -5,9 +5,9 @@ let app = express();
 let PORT = process.env.PORT || 3001;
 let passport = require("passport");
 var LocalStrategy = require("passport-local").Strategy;
-const bcrypt = require("bcrypt");
-const Schema = mongoose.Schema;
-
+let bcrypt = require("bcrypt");
+let Schema = mongoose.Schema;
+let QRCode = require("qrcode");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -27,6 +27,7 @@ mongoose
   .catch(err => console.log(JSON.stringify(err)));
 
 let User = mongoose.model("User", {
+  userID: String,
   fullName: String,
   dob: String,
   ssn: String,
@@ -34,51 +35,9 @@ let User = mongoose.model("User", {
   gender: String,
   bloodType: String,
   allergies: String,
-  userID: String,
-  visits: Array
+  visits: String,
+  qrCode: String
 });
-
-const VisitSchema = new Schema({
-  date: String,
-  type: String,
-  doctor: String,
-  physicanNumber: String,
-  mrn: Number,
-  diagnosis: String,
-  dischargeDate: String,
-  location: String,
-  symptoms: String,
-  perscription: Array
-  
-})
-
-VisitSchema.set('timestamps',true)
-
-const Visit = mongoose.model("Visit",VisitSchema)
-
-
-
-// let newUser = new User({
-//   id: "1232432",
-//   fullName: "Mitchell Philmore",
-//   dob: "7/22/1987",
-//   ssn: "123456789",
-//   tel: "215-555-5555",
-//   gender: "M",
-//   bloodType: "A+",
-//   allergies: ["NA"]
-// });
-
-
-
-// newUser
-//   .save()
-//   .then(() => {
-//     console.log("Saved");
-//   })
-//   .catch(err => JSON.stringify(err));
-
-
 
 passport.use(
   new LocalStrategy(
@@ -120,7 +79,17 @@ passport.deserializeUser(function(obj, cb) {
   cb(null, obj);
 });
 
-app.get("/signup", function(req, res) {
+app.get("/signup", async function(req, res) {
+  let random = require("crypto")
+    .randomBytes(10)
+    .toString("hex");
+
+  let qr = await QRCode.toDataURL(random, { errorCorrectionLevel: "M" }).then(
+    url => {
+      return JSON.stringify(url);
+    }
+  );
+
   let newUser = new User({
     userID: "1232432",
     fullName: "Mitchell Philmore",
@@ -130,7 +99,7 @@ app.get("/signup", function(req, res) {
     gender: "M",
     bloodType: "A+",
     allergies: "NA",
-    
+    qrCode: `${qr}`
   });
 
   bcrypt.genSalt(10, (err, salt) => {
@@ -149,61 +118,39 @@ app.get("/signup", function(req, res) {
 
 app.get(
   "/login/usr/:id",
-  // passport.authenticate("local", {
-  //   failureRedirect: "/login"
-  // }),
+  passport.authenticate("local", {
+    failureRedirect: "/login"
+  }),
   function(req, res) {
-    User.findOneAndUpdate({ userID: req.params.id },{$push:{
-      visits: {
-        visits:{
-        date: "1/3/2019",
-        type: "Routine",
-        doctor: "Dr Smith",
-        physicanNumber: "12238394",
-        mrn: 122334,
-        diagnosis: "Cancer",
-        dischargeDate: "1/5/2009",
-        location: "Chop,Philadelphia,PA",
-        symptoms: "Chest pain",
-        perscription: ["NA"],
-       
-  
-      }
-    }
-    
+    User.findOneAndUpdate(
+      { userID: req.params.id },
+      {
+        $push: {
+          visits: {
+            visits: {
+              date: "1/3/2019",
+              type: "Routine",
+              doctor: "Dr Smith",
+              physicianNumber: "12238394",
+              mrn: 122334,
+              diagnosis: "Cancer",
+              dischargeDate: "1/5/2009",
+              location: "Chop,Philadelphia,PA",
+              symptoms: "Chest pain",
+              prescription: ["NA"]
+            }
+          }
+        }
+      },
+      { new: true }
+    )
+      .then(user => {
+        res.json(user); //TODO: return only the last entry in the visits array
+      })
+      .catch(err => console.log(JSON.stringify(err)));
   }
- 
-}, {new:true})
-.then(user=>{
-  res.json(user) //TODO: return only the last entry in the visits array
-})
-.catch(err=>console.log(JSON.stringify(err)))
-})
+);
 
-
-app.get('/newvisit',(req,res)=>{
-  let newVisit = new Visit({
-    // date: "1/3/1998",
-    // type: "Routine",
-    // doctor: "Dr Smith",
-    // physicanNumber: "12238394",
-    // mrn: 122334,
-    // diagnosis: "Cancer",
-    // dischargeDate: "1/5/2009",
-    // location: "Chop,Philadelphia,PA",
-    // symptoms: "Chest pain",
-    // perscription: ["NA"],
-    // userID: "1232432",
-  
-  });
-
-  newVisit
-  .save()
-  .then(user => res.json(user))
-  .catch(err => console.log(err));
-
-
-})
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
