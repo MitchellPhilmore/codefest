@@ -1,0 +1,35 @@
+#Scan {
+  height: 80vh;
+  color: rgb(0, 24, 93);
+}
+
+#scanButton {
+  flex-direction: column;
+  perspective: 1000px;
+  background-color: rgb(226, 230, 241);
+  width: 80vw;
+  height: 44vh;
+}
+
+#scanButton p {
+
+}
+
+#scanButton i {
+  font-size: 12em;
+  transform-style: preserve-3d;
+}
+
+#scanButton i {
+  transform: rotateY(360deg);
+  animation: rotateQRC 20s infinite linear;
+}
+
+@keyframes rotateQRC {
+  0%   {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}

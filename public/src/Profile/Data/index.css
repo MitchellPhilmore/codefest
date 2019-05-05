@@ -1,0 +1,35 @@
+#Data {
+  height: 2em;
+  width: 70vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  justify-content: space-between;
+  margin: 0.2em;
+  padding: 0 0.4em;
+  border-radius: 0.2em;
+}
+
+.titleBox {
+  margin-left: 1em;
+}
+
+.dataField {
+  font-size: 1em;
+  margin: 0;
+  background: transparent;
+  border: navajowhite;
+  text-align: center;
+  color: inherit;
+}
+
+p.dataField {
+  margin-right: 1em;
+  overflow-x: scroll;
+  width: 10em;
+}
+
+input.dataField {
+  border-bottom: 2px solid;
+  text-align: end;
+  padding-right: 1em;
+  outline-color: rgb(0, 27, 101);
+}

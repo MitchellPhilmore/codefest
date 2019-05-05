@@ -6,9 +6,8 @@
 .headerHeading > p {
   font-size: 5.2em;
   margin: 0;
-  color: #444;
+  color: rgb(0, 24, 93);
   margin-left: 2rem;
-  opacity: 0.2;
   font-weight: 800;
   width: 2em;
   line-height: 0.3;
@@ -16,7 +15,7 @@
 
 .headerBottomLetters {
   position: relative;
-  left: 0.4em;
+  left: 1.4em;
 }
 
 .headerMiniLogo {

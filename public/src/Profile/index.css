@@ -1,0 +1,24 @@
+#Profile {
+  position: absolute;
+  bottom: 0;
+  height: 84vh;
+  width: 100vw;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  background: rgb(0, 24, 93);
+  background: radial-gradient(circle, rgb(0, 13, 52) 10%, rgb(0, 27, 101) 100%);
+}
+
+.titleBox {
+
+}
+
+.profileSection {
+  min-height: 10vh;
+  max-height: 32vh;
+  margin: 0.5em;
+}
+
+.profileList {
+  overflow-y: scroll;
+}
