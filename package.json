@@ -7,7 +7,7 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'public/*'\" \"npm run public\"",
-    "client": "cd public && npm run start",
+    "public": "cd public && npm run start",
     "install": "cd public && npm install",
     "build": "cd public && npm run build",
     "heroku-postbuild": "npm run build"
