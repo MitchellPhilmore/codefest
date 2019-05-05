@@ -80,7 +80,7 @@ passport.deserializeUser(function(obj, cb) {
   cb(null, obj);
 });
 
-app.get("/inititalLoad", async function(req, res) {
+app.get("/initialLoad", async function(req, res) {
   personalData.map(async person => {
     let personUrl = `https://team-kick-ass.herokuapp.com/usr=${person.userID}`;
 
