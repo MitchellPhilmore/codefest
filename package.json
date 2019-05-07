@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
+    "heroku-postbuild":
+      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
