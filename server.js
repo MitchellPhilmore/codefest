@@ -89,6 +89,9 @@ app.get("/initialLoad", async function(req, res) {
   });
 });
 
+app.get('/',(req,res)=>{
+  res.send('Hello')
+})
 // app.get("/signup", async function(req, res) {
 //   let userID = require("crypto")
 //     .randomBytes(10)
