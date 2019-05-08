@@ -13,6 +13,7 @@ function Scan({ setParentState }) {
 
   const scaneQrc = () => {
     setIsScanable(false)
+    openImageDialog()
   }
 
   const handleScan = data => {
@@ -38,6 +39,7 @@ function Scan({ setParentState }) {
     <QrReader
       delay={300}
       onError={handleError}
+      legacyMode={true}
       onScan={handleScan}
       style={{ width: '100%' }}
     />

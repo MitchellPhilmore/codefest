@@ -91,7 +91,7 @@ function LogIn() {
         </>)
       }
     </div>
-    <div id="loginButtons" className="flexRow">
+    <div id="loginButtons"  className="flexRow">
       <div
         onClick={selectButton.bind(this, "print")}
         className={`flexRow loginButtonHolder ${printClass}`}
