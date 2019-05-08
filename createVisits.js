@@ -11,7 +11,11 @@ personalData.forEach((person,i)=>{
 
 
 personalData.forEach((person,i)=>{
- person.visits = allDataVisits[i]
+
+ let threeVisits = allDataVisits.splice(i,3)
+  person.visits = JSON.stringify(threeVisits)
 })
+
+console.log(personalData)
 
 module.exports = personalData
