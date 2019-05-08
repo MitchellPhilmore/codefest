@@ -10,9 +10,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start:dev": "concurrently \"nodemon --ignore 'public/*'\" \"npm run public\"",
     "public": "cd public && npm run start",
-    "heroku-postbuild": "cd client && npm install && npm run build",
     "install": "cd public && npm install",
-    "build": "cd public && npm run build"
+    "build": "cd public && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build"
    
   
   },
