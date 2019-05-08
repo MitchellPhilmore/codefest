@@ -13,7 +13,7 @@ function Scan({ setParentState }) {
 
   const scaneQrc = () => {
     setIsScanable(false)
-    openImageDialog()
+    
   }
 
   const handleScan = data => {
