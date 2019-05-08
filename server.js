@@ -96,7 +96,7 @@ passport.deserializeUser(function(obj, cb) {
 
 //build mode
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/public/index.html'));
+  res.sendFile(path.join(__dirname+'/public/public/index.html'));
 })
 
 
@@ -108,9 +108,7 @@ app.get("/initialLoad", async function(req, res) {
   });
 });
 
-app.get('/',(req,res)=>{
-  res.send('Hello')
-})
+
 // app.get("/signup", async function(req, res) {
 //   let userID = require("crypto")
 //     .randomBytes(10)
