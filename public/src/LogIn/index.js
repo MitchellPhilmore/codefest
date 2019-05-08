@@ -38,7 +38,7 @@ function LogIn() {
                }
                const userData = user.data;
                localStorage.setItem("userData", JSON.stringify(userData));
-               window.location.href = "http://localhost:3000/profile"
+               window.location.href = "/profile"
              });
       } else if ((key.length === 8) && (active === "key")) {
         const key = 12345678;
@@ -49,7 +49,7 @@ function LogIn() {
                }
                const userData = user.data[0];
                localStorage.setItem("userData", JSON.stringify(userData));
-               window.location.href = "http://localhost:3000/profile"
+               window.location.href = "/profile"
              });
       }
     }
