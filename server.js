@@ -9,12 +9,15 @@ let bcrypt = require("bcrypt");
 let Schema = mongoose.Schema;
 let QRCode = require("qrcode");
 let personalData = require("./createVisits");
+let path = require('path')
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(passport.initialize());
 app.use(passport.session());
+
+app.use(express.static(path.join(__dirname, "public", "build")))
 
 //Static file declaration
 
@@ -94,10 +97,6 @@ passport.deserializeUser(function(obj, cb) {
 
 
 //build mode
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/public/public/index.html'));
-})
-
 
 app.get("/initialLoad", async function(req, res) {
   personalData.map(async person => {
@@ -211,6 +210,11 @@ app.get("/login/user/:id/:ssn/:dob", (req, res) => {
   })
 
 });
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "build", "index.html"));
+});
+
 
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);

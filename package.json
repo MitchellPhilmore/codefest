@@ -5,14 +5,14 @@
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start": "node server.js",
     "start:prod": "npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start:dev": "concurrently \"nodemon --ignore 'public/*'\" \"npm run public\"",
     "public": "cd public && npm run start",
     "install": "cd public && npm install",
     "build": "cd public && npm run build",
-    "heroku-postbuild": "cd public && npm install && npm run build"
+    "heroku-postbuild": "cd public && npm install --only=dev && npm install && npm run build"
    
   
   },
