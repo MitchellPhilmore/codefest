@@ -16,6 +16,9 @@
    
   
   },
+  "engines": {
+    "node": "10.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MitchellPhilmore/codefest.git"
