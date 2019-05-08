@@ -19,18 +19,18 @@ app.use(passport.session());
 //Static file declaration
 app.use(express.static(path.join(__dirname, 'public/build')));
 
-//production mode
-if(process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'public/build')));
-  //
-  app.get('*', (req, res) => {
-    res.sendfile(path.join(__dirname = 'public/build/index.html'));
-  })
-}
-// // Serve up static assets
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static("client/build"));
+// //production mode
+// if(process.env.NODE_ENV === 'production') {
+//   app.use(express.static(path.join(__dirname, 'public/build')));
+//   //
+//   app.get('*', (req, res) => {
+//     res.sendfile(path.join(__dirname = 'public/build/index.html'));
+//   })
 // }
+// Serve up static assets
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 // Connect to the Mongo DB
 // mongoose.connect(process.env.MONGODB_URI);
