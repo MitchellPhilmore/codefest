@@ -12,7 +12,7 @@
     "public": "cd public && npm run start",
     "install": "cd public && npm install",
     "build": "cd public && npm run build",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd public && npm install && npm run build"
    
   
   },
