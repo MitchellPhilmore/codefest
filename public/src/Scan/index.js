@@ -20,7 +20,7 @@ function Scan({ setParentState }) {
       const parts = data.split("/");
       const valueToSet = parts[parts.length - 1];
       localStorage.setItem("qrc", valueToSet);
-      window.location.href = "http://localhost:3000/login"
+      window.location.href = "/login"
     }
   }
 
