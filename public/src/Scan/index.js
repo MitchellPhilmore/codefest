@@ -36,6 +36,7 @@ function Scan({ setParentState }) {
       <i className="fas fa-qrcode"></i>
     </div>
   </div>) : (<div>
+    <button class="btnAdd">Install </button>
     <QrReader
       delay={300}
       onError={handleError}
